@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background: url('https://images.unsplash.com/photo-1474418397713-7ede21d49118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1036&q=80') no-repeat 50%;
+    background-size: cover;
+}
+.nav-sticky {
+    position: fixed;
+    background-color: red;
+}
+.navegacao {
+    width: 100%;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.navegacao a {
+    font-size: 20px;
+    padding: 0 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+    padding: 15px;
+}
